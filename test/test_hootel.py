@@ -34,7 +34,7 @@ class TestHootel(object):
 
         email_input = self.browser.find_element(By.ID, 'email')
         email_input.send_keys('hiwasi1765@wisnick.com')
-
+        time.sleep(1)
         password_input = self.browser.find_element(By.ID, 'password')
         password_input.send_keys('tesztelek2021')
 
